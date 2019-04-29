@@ -10,12 +10,12 @@ HaxeJS seems to work around that by prefixing these names with a `$`, but hxgenj
 
 This sample uses Lix and Haxe 4RC2.
 
-1) Install Lix
-2) Install Haxe 4RC2 using Lix:
-3) Download necessary haxelibs: 
-4) make
-5) Run: make run-haxejs to run the haxejs version of the sample;
-6) Run: make run-hxgenjs to run the hxgenjs version of the sample (and see the error output);
+1) Install [Lix](https://github.com/lix-pm/lix.client);
+2) Install Haxe 4RC2 using Lix: `lix install haxe 4.0.0-rc.2`;
+3) Download necessary haxelibs: `lix download`;
+4) Run: `make`;
+5) Run: `make run-haxejs` to run the haxejs version of the sample;
+6) Run: `make run-hxgenjs` to run the hxgenjs version of the sample (and see the error output).
 
 # Failure and expected result
 
