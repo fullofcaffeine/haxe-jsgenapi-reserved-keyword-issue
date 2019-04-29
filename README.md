@@ -4,7 +4,7 @@ A small sample reproducing a problem [hxgenjs](https://github.com/kevinresol/hxg
 trying to use `finally` as a variable name in the Haxe code. `finally` is a [reserved JS keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
 so it can't be used as an identifier in raw JS (or TS) code.
 
-HaxeJS seems to work around that by prefixing these names with a `$`, but hxgenjs does not do that, and the generated js code ends up being fauly.
+HaxeJS seems to work around that by prefixing these names with a `$`, but hxgenjs does not do that, and the generated js code ends up being faulty.
 
 # Compiling and running
 
