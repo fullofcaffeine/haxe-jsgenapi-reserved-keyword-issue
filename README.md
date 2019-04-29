@@ -47,7 +47,7 @@ Since it uses the JsGenAPI API, it's expected that these variable names are also
 # Possible solutions
 
 1) It's expected that the JsGenAPI would provide this feature already, so it might be considered a bug in Haxe/JsGenAPI, in that case the solution would be to fix that in the compiler/JsGenAPI implementation;
-2) Additional logic could be added to hxgenjs to cater to this scenario, although we'd be repeating logic that is already implemented in teh compiler, so this is less desirable. Also, need to take into account that the more hxgenjs does, the slower it gets as it's not as fast the OCaml implementation.
+2) Additional logic could be added to hxgenjs to cater to this scenario, although we'd be repeating logic that is already implemented in the compiler, so this is less desirable. Also, need to take into account that the more hxgenjs does, the slower it gets as it's not as fast as the OCaml implementation.
 
 
 
