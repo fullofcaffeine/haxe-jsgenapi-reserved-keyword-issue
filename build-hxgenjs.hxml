@@ -1,0 +1,4 @@
+-lib hxgenjs
+-main Main
+-js out/hxgenjs/main-hxgenjs.js
+--macro genjs.Generator.use()

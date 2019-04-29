@@ -1,0 +1,5 @@
+-D hxgenjs=0.4.1
+# @install: lix --silent download "git:git@github.com:kevinresol/hxgenjs.git#82a50038a28a832998966606ab9b446e6a792a26" into hxgenjs/0.4.1/git/82a50038a28a832998966606ab9b446e6a792a26
+-lib tink_macro
+-cp ${HAXE_LIBCACHE}/hxgenjs/0.4.1/git/82a50038a28a832998966606ab9b446e6a792a26/src
+--macro genjs.Generator.use()
