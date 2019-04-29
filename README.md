@@ -8,7 +8,7 @@ HaxeJS seems to work around that by prefixing these names with a `$`, but hxgenj
 
 # Compiling and running
 
-This sample uses Lix and Haxe 4RC2.
+This sample uses Lix and Haxe 4RC2. Requires `nodejs` to be installed and accessible in the PATH.
 
 1) Install [Lix](https://github.com/lix-pm/lix.client);
 2) Install Haxe 4RC2 using Lix: `lix install haxe 4.0.0-rc.2`;
